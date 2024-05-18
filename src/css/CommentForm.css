@@ -1,0 +1,66 @@
+.comment-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.comment-form-input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(251, 250, 250);
+  color: black;
+}
+.comment-content {
+  color: rgb(57, 47, 47) !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.comment-form-input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.comment-form textarea {
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(212, 211, 211, 0.877);
+  color: rgb(8, 8, 8);
+}
+
+.comment-form textarea::placeholder {
+  color: rgba(12, 12, 12, 0.733);
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+  .comment-form {
+    padding: 10px;
+  }
+
+  .comment-form-input,
+  .comment-form textarea {
+    width: 95%;
+  }
+  .comment-form button {
+    width: 100%;
+  }
+}

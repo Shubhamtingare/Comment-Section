@@ -1,0 +1,97 @@
+.comment-list {
+  margin-top: 20px;
+  background-color: beige;
+  margin-inline: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comment {
+  background-color: rgba(7, 6, 6, 0.785);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(42, 40, 40, 0.594);
+}
+
+.comment p {
+  margin: 10px 0;
+  color: rgb(10, 10, 10);
+  padding: 0 10px;
+}
+
+.comment-text {
+  font-style: italic;
+}
+
+.comment-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.comment-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.comment button {
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 30px;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50% !important;
+  font-size: 16px !important;
+}
+
+.comment button:hover {
+  background-color: #0056b3;
+}
+
+.comment button.delete-button {
+  background-color: #dc3545;
+}
+
+.comment button.edit-button {
+  background-color: #ffc107;
+}
+
+.vote-count {
+  padding: 10px 8px;
+  color: rgb(5, 243, 132);
+  text-align: center;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .comment-list {
+    padding: 5px;
+  }
+
+  .comment-button-group {
+    align-items: center;
+  }
+
+  .comment-buttons {
+    margin-top: 10px;
+  }
+}
